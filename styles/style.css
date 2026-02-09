@@ -1,8 +1,5 @@
+@import url(00-generic/reset.css);
+@import url(01-tools/colors\ and\ fonts.css);
+@import url(01-tools/containers.css);
 
-img{
-    width: 300px;
-    height: 300px;
-}
-
-  Color Pastel (Fondo): #E3F2FD (Azul Nube)
-Color Complementario (Accento): #FF8A65 (Naranja Coral)
+@import url(02-elements/header.css);

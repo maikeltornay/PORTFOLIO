@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Miguel Tornay</title>
 </head>
 <body>
-    <header class="header">
-        <div class="top-bar">
-            <div class="top-bar__contact">
-                <div class="phone">
+    <header class="header flex">
+        <div class="top-bar flex">
+            <div class="top-bar__contact flex">
+                <div class="phone flex">
                     <img src="styles/images/phone-call.svg" alt="icono svg telefono">
                     <a  href="tel:+034 610679171">610679171</a>
                 </div>
-                <div class="mail">
+                <div class="mail flex">
                     <img src="styles/images/mail-svgrepo-com.svg" alt="icono svg sobre/mail">
                     <a href="mailto:maiketornay89@gmail.com">maikeltornay89@gmail.com</a>
                 </div>
             </div>
-            <div class="top-bar__social">
-                <ul class="top-bar__ul">
+            <div class="top-bar__social flex">
+                <ul class="top-bar__ul flex">
                     <li class="top-bar__li"><img class="top-bar__icon" src="styles/images/x.svg" alt="svg icono X"></li>
                     <li class="top-bar__li"><img class="top-bar__icon" src="styles/images/facebook.svg" alt="svg icono facebook"></li>
                     <li class="top-bar__li"><img class="top-bar__icon" src="styles/images/instagram.svg" alt="svg icono instagram"></li>
@@ -28,20 +31,31 @@
                 </ul>
             </div>
         </div>
-        <div class="header-nav">
-            <div class="header-logo">
+        <div class="header-nav flex">
+            <div class="header-logo flex">
                 <img src="styles/images/descarga.jpeg" alt="icono con inicial MT">
                 <h1 class="mi_nombre">Miguel Tornay</h1>
             </div>
-            <nav class="header__nav">
+            <nav class="header__nav flex">
+                <details>
+                    <summary>☰</summary>
                 <ul class="header-nav__ul">
                     <li class="header-nav__li"><a href="#inicio">Inicio</a></li>
                     <li class="header-nav__li"><a href="#futuro">Futuro</a></li>
                     <li class="header-nav__li"><a href="#sobre_mi">Sobre mi</a></li>
                     <li class="header-nav__li"><a href="#curriculum">Curriculum</a></li>
                 </ul>
+                </details>
             </nav>
-            <img src="styles/images/avatar.svg" alt="avatar miguel tornay">
+            <nav class="header__nav2 flex">
+                <ul class="header-nav2__ul">
+                    <li class="header-nav2__li"><a href="#inicio">Inicio</a></li>
+                    <li class="header-nav2__li"><a href="#futuro">Futuro</a></li>
+                    <li class="header-nav2__li"><a href="#sobre_mi">Sobre mi</a></li>
+                    <li class="header-nav2__li"><a href="#curriculum">Curriculum</a></li>
+                </ul>
+            </nav>
+            <img class="nav__img" src="styles/images/avatar.svg" alt="avatar miguel tornay">
         </div>
     </header>
     <section id="inicio" class="inicio">
