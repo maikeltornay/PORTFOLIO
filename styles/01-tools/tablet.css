@@ -1,0 +1,19 @@
+@media (min-width:640px){
+html{
+    font-size:14px;
+}
+
+/* AJUSTES HEADER */
+.header-logo{
+    flex-direction: row;
+}
+.header-nav__li a{
+    font-size: 1.2rem;
+}
+
+/* AJUSTES FOOTER */
+.footer__logo{
+    flex-direction: row;
+}
+
+}

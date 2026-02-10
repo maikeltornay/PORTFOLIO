@@ -70,6 +70,12 @@ summary {
   cursor: pointer;
   font-size:2rem;
 }
+.header-nav__ul{
+    position:absolute
+}
+.header-nav__li{
+    display:flex;
+}
 .nav__img{
     width: 10rem;
 }
