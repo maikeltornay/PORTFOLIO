@@ -1,7 +1,7 @@
 .inicio{
     padding: 1.5rem;
     background-image:  linear-gradient(rgba(255, 255, 255, 0.2)),
-    url(/styles/images/tossa.jpg);
+    url(../styles/images/tossa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
