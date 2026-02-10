@@ -1,0 +1,39 @@
+.sobre_mi{
+    padding: 2rem 1.5rem;
+}
+.sobre_mi__div{
+    flex-direction: column;
+    gap:2rem;
+}
+.sobre_mi__h2{
+    font-family: var(--font1);
+    font-size: 3rem;
+    text-align: center;
+    color: var(--color2);
+}
+.sobre_mi__pasatiempos{
+    flex-direction: column;
+    gap:5rem;
+}
+.sobre_mi__hobbie{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.hobbie__titulo{
+    font-family: var(--font2);
+    font-size:1.7rem;
+    color:var(--color4);
+}
+.hobbie__div{
+    flex-direction:column;
+    gap: 0.8rem;
+}
+.hobbie__div img{
+    border-radius: 1.6rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.hobbie__p{
+    font-size: 1.3rem;
+    text-align: center;
+}
